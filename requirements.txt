@@ -1,0 +1,13 @@
+altgraph==0.17.2
+docx==0.2.4
+et-xmlfile==1.1.0
+lxml==4.7.1
+macholib==1.15.2
+numpy==1.22.1
+openpyxl==3.0.9
+Pillow==9.0.0
+pyinstaller==4.8
+pyinstaller-hooks-contrib==2022.0
+python-docx==0.8.11
+six==1.16.0
+wxPython==4.1.1
