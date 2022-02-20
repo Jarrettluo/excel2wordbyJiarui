@@ -29,7 +29,7 @@
 ```
 其中`excel2wordByJiarui.py`是将excel转换为word的核心代码，其中包含测试方法，可以进行测试。
 
-### 使用方法 ð
+### 使用方法 
 0、准备运行环境
 在mac下编写，在windows10系统下打包程序。
 
@@ -55,7 +55,7 @@ python run gui_run.py
 
 
 
-### pyinstaller 打包方法 ð
+### pyinstaller 打包方法
 ```
 pyinstaller -F -w gui-2.py -i ./resources/switch_128.ico
 ```
