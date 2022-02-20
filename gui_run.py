@@ -5,7 +5,7 @@ import wx
 import sys, random
 import os
 
-from win32ctypes import win32api
+# from win32ctypes import win32api
 
 from excel2wordByJiarui import start_switch
 
@@ -73,8 +73,8 @@ class mainFrame(wx.Frame):
         # panel = wx.Panel(self)
         # my_button = MyButton(self, title="点我", pos=(410, 2))
 
-        b4.SetBackgroundColour("#0288d1")  # 设置按钮的背景颜色
-        b4.SetForegroundColour("#fff")
+        # b4.SetBackgroundColour("#0288d1")  # 设置按钮的背景颜色
+        # b4.SetForegroundColour("#fff")
         b4.SetSize(75, 25)
 
         self.list = wx.ListCtrl(self,
