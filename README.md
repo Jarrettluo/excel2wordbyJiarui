@@ -60,5 +60,9 @@ python run gui_run.py
 pyinstaller -F -w gui-2.py -i ./resources/switch_128.ico
 ```
 -F ：选中某个文件
+
+
 -w ：显示窗体
+
+
 -i ： 使用图标
