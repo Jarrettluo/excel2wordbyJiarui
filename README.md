@@ -2,23 +2,9 @@
 
 
 
-发送到发送到发送
-------
-发送到发送到发送
 
+## 项目简介
 
-## 水电费水电费
-范德萨范德萨
-
-
-房贷首付赛道
-====
-范德萨范德萨
-
-
-
-### 项目简介
-***
 
 ![Excel会议文档转换为Word文档](screenshot.png)
 
@@ -31,8 +17,7 @@
 在本项目中，实现的功能是将会议的信息，从Excel文档中提取以后，再写入到Word文档中，并且加上了可视化的操作界面。
 界面中具有查看模板功能，导出结果列表页展示功能，选中Excel文档以后一键转换功能。
 
-### 项目文件树
-***
+## 项目文件树
 
 ```shell
 ├── excel2wordByJiarui.py
@@ -51,8 +36,8 @@
 ```
 其中`excel2wordByJiarui.py`是将excel转换为word的核心代码，其中包含测试方法，可以进行测试。
 
-### 使用方法 
-***
+## 使用方法 
+
 0、准备运行环境
 在mac下编写，在windows10系统下打包程序。
 
@@ -73,13 +58,13 @@ python run gui_run.py
 在文件树的`resources`文件夹中具有测试文件，可以进行程序校验。
 
 #### 其他方法
+
 可以在中直接下载打包完毕的程序
 [https://github.com/Jarrettluo/excel2wordbyJiarui/releases](https://github.com/Jarrettluo/excel2wordbyJiarui/releases)
 
 
 
-### pyinstaller 打包方法
-***
+## pyinstaller 打包方法
 
 ```
 pyinstaller -F -w gui-2.py -i ./resources/switch_128.ico
@@ -93,11 +78,10 @@ pyinstaller -F -w gui-2.py -i ./resources/switch_128.ico
 -i ： 使用图标
 
 
-### 许可信息
-***
+## 许可信息
+
 遵从MIT协议。
 
-### 联系方式
-***
+## 联系方式
 
 Jarrett Luo - [jiaruiblog.com](http://jiaruiblog.com) - luojiarui2@163.com
