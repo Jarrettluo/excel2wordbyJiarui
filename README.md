@@ -1,4 +1,7 @@
+**<center>会议文件转换Excel To Word</center>**
+[toc]
 ### 项目简介
+<hr>
 
 ![Excel会议文档转换为Word文档](screenshot.png)
 
@@ -12,6 +15,8 @@
 界面中具有查看模板功能，导出结果列表页展示功能，选中Excel文档以后一键转换功能。
 
 ### 项目文件树
+<hr/>
+
 ```shell
 ├── excel2wordByJiarui.py
 ├── gui_run.py
@@ -30,6 +35,7 @@
 其中`excel2wordByJiarui.py`是将excel转换为word的核心代码，其中包含测试方法，可以进行测试。
 
 ### 使用方法 
+<hr>
 0、准备运行环境
 在mac下编写，在windows10系统下打包程序。
 
@@ -56,6 +62,8 @@ python run gui_run.py
 
 
 ### pyinstaller 打包方法
+<hr>
+
 ```
 pyinstaller -F -w gui-2.py -i ./resources/switch_128.ico
 ```
@@ -66,3 +74,13 @@ pyinstaller -F -w gui-2.py -i ./resources/switch_128.ico
 
 
 -i ： 使用图标
+
+
+### 许可信息
+<hr>
+遵从MIT协议。
+
+### 联系方式
+<hr>
+
+Jarrett Luo - [jiaruiblog.com](http://jiaruiblog.com) - luojiarui2@163.com
